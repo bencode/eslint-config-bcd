@@ -1,2 +1,3 @@
-# bcd-code-style
-my code style for javascript
+# eslint-config-bcd
+
+Code style for javascript
