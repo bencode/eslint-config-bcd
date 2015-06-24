@@ -299,8 +299,9 @@ module.exports = {
     'no-unused-vars': 2,
 
     // 定义之前不能用
-    // 这个规则要重写下，写成function申明除外
-    'no-use-before-define': 2,
+    // TODO 这个规则要重写下，写成function申明除外
+    // 现在暂时先关闭
+    'no-use-before-define': 0,
 
 
     //----------nodejs-----------
@@ -447,20 +448,20 @@ module.exports = {
     'quote-props': [2, 'as-needed'],
 
     // 使用单引号字符串，但需要转义时可使用双引号
-    quotes: [2, single, 'avoid-escape'],
+    'quotes': [2, 'single', 'avoid-escape'],
 
     // 语句分号前面不加空格，后面加空格
     'semi-spacing': [2, { before: false, after: true }],
 
     // 语句后面要加分号
-    semi: 2,
+    'semi': 2,
 
     // 不自动，一般按语义来自行组合
     //'sort-vars': 2,
 
     // 函数名称和括号之间不要空格
-    // 这个规则有bug，生成器名称后明明没带空格说我带空格
-    'space-after-function-name': [2, 'never'],
+    // TODO 这个规则有bug，生成器名称后明明没带空格说我带空格
+    //'space-after-function-name': [2, 'never'],
 
     // 语句关键字后要加空格
     'space-after-keywords': [2, 'always'],
@@ -468,7 +469,7 @@ module.exports = {
     // 区块前要加空格
     'space-before-blocks': [2, 'always'],
 
-    // 匿名函数function后面不加空格
+    // 函数名称后面不加空格
     'space-before-function-paren': [2, 'never'],
 
     // 调用方法时参数和括号之间不要有空格
@@ -484,7 +485,8 @@ module.exports = {
     'space-unary-ops': [2, { words: true, nonwords: false }],
 
     // 注释符后面要有一个空格才开始写，但是*+-除外
-    'spaced-comment': [2, 'always', { exceptions: ['*', '-', '+'] }],
+    // TODO 这个规则没达到预期这样工作
+    // 'spaced-comment': [2, 'always', { exceptions: ['*', '-', '+'] }],
 
     // 正则式直接参于匹配时加括号
     'wrap-regex': 2,
