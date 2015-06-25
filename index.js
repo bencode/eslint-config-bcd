@@ -17,7 +17,7 @@ module.exports = {
 
   // ecma特性
   ecmaFeatures: {
-    // 允许使用生成器
+    classes: true,
     generators: true
   },
 
