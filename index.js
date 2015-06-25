@@ -293,7 +293,8 @@ module.exports = {
     'no-undef': 2,
 
     // 不使用undefined变量
-    'no-undefined': 2,
+    // 目前用得比较多，所以这个先关闭
+    'no-undefined': 0,
 
     // 定义好的变量不用不行
     'no-unused-vars': 2,
