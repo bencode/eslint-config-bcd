@@ -2,7 +2,7 @@
   "name": "eslint-config-bcd",
   "version": "0.1.1",
   "description": "code style for javascript",
-  "main": "defaults.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bencode/eslint-config-bcd.git"
@@ -12,6 +12,5 @@
   "bugs": {
     "url": "https://github.com/bencode/eslint-config-bcd/issues"
   },
-  "homepage": "https://github.com/bencode/eslint-config-bcd#readme",
-  "scripts": {}
+  "homepage": "https://github.com/bencode/eslint-config-bcd#readme"
 }

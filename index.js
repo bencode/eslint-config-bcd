@@ -331,7 +331,7 @@ module.exports = {
     // ---------书写格式--------
 
     // 括号语句样式
-    'brace-style': [2, 'stroustrup', { allowSingleLine: false }],
+    'brace-style': [2, '1tbs', { allowSingleLine: false }],
 
     // 变量大小写
     'camelcase': [2, { properties: 'always' }],
