@@ -66,7 +66,8 @@ module.exports = {
     'no-extra-boolean-cast': 2,
 
     // 不允许没必要的括号
-    'no-extra-parens': 2,
+    // 有时候表达式需要加多余的括号，增加可读性
+    //'no-extra-parens': 2,
 
     // 不允许没必要的冒号
     'no-extra-semi': 2,
