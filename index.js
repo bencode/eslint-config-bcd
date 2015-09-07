@@ -92,9 +92,6 @@ module.exports = {
     // 不允许在正则表达式包含长度超过1的空白字符串
     'no-regex-spaces': 2,
 
-    // 不允许在对象表达式中使用保留字作为key
-    'no-reserved-keys': 2,
-
     // 不允许申明有空洞的数组
     'no-sparse-arrays': 2,
 
